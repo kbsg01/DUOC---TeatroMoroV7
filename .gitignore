@@ -1,0 +1,30 @@
+# ===== ARCHIVOS DE COMPILACIÓN JAVA =====
+*.class
+*.log
+*.ctxt
+*.swp
+*~
+
+# ===== CARPETAS DE COMPILACIÓN =====
+build/
+dist/
+bin/
+out/
+
+# Permitir subir el .jar (por ejemplo: dist/TeatroMoroV7.jar)
+!dist/
+!dist/*.jar
+
+# ===== CONFIGURACIONES DE IDES =====
+
+# NetBeans
+nbproject/private/
+build.xml
+nb-configuration.xml
+
+# Visual Studio Code
+.vscode/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
